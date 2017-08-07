@@ -13,4 +13,20 @@ public class Bills {
         this.currency = currency;
         this.total = total;
     }
+
+    public String getDate() {
+        return date;
+    }
+
+    public String getPeriod() {
+        return period;
+    }
+
+    public String getCurrency() {
+        return currency;
+    }
+
+    public String getTotal() {
+        return total;
+    }
 }

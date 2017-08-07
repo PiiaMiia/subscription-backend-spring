@@ -10,4 +10,16 @@ public class Details {
         this.serviceType = serviceType;
         this.serviceProvider = serviceProvider;
     }
+
+    public String getNextDate() {
+        return nextDate;
+    }
+
+    public String getServiceType() {
+        return serviceType;
+    }
+
+    public String getServiceProvider() {
+        return serviceProvider;
+    }
 }
